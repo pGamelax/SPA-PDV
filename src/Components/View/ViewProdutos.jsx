@@ -29,9 +29,9 @@ class ViewProdutos extends React.Component {
             {playerData?.map((item, index) => (
               <div className="col-sm" key={index}>
                 {console.log(item)}
-                <p>{item?.descricao}</p>
-                <p>{item?.preco_custo}</p>
-                <p>{item?.preco_venda}</p>
+                <p>Descrição: {item?.descricao}</p>
+                <p>Preco custo: {item?.preco_custo}</p>
+                <p>Preco Venda: {item?.preco_venda}</p>
               </div>
             ))}
           </div>
