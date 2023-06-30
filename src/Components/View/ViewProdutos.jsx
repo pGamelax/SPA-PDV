@@ -12,10 +12,12 @@ class ViewProdutos extends React.Component {
               
                 <div className="col-sm">
                  
-                  <p>{playerData?.produto?.descricao}</p>
-                  <p>{playerData?.produto?.preco_custo}</p>
-                  <p>{playerData?.produto?.preco_venda}</p>
+                  <p>Descrição: {playerData?.produto?.descricao}</p>
+                  <p>Preco custo: {playerData?.produto?.preco_custo}</p>
+                  <p>Preco Venda: {playerData?.produto?.preco_venda}</p>
+                  <hr></hr>
                 </div>
+              
              }
           </div>
         </div>
