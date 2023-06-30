@@ -6,22 +6,7 @@ class ViewProdutos extends React.Component {
     console.log(playerData?.produto);
     return playerData?.produto ? (
       <>
-        <div className="card">
-          <div className="card-body row text-center ">
-            {
-              
-                <div className="col-sm">
-                 
-                  <p>Descrição: {playerData?.produto?.descricao}</p>
-                  <p>Preco custo: {playerData?.produto?.preco_custo}</p>
-                  <p>Preco Venda: {playerData?.produto?.preco_venda}</p>
-                  
-                </div>
-               
-             }
-            
-          </div>
-        </div>
+        
       </>
     ) : (
       <>
@@ -33,9 +18,8 @@ class ViewProdutos extends React.Component {
                 <p>Descrição: {item?.descricao}</p>
                 <p>Preco custo: {item?.preco_custo}</p>
                 <p>Preco Venda: {item?.preco_venda}</p>
-                
               </div>
-              
+              <hr></hr>
             ))}
           </div>
         </div>
