@@ -8,7 +8,7 @@ class ViewProdutos extends React.Component {
       <div>
         <div className="card">
           <div className="card-body row text-center ">
-            <hr></hr>
+            
             {
               
               <p>Descrição: {playerData?.produto?.descricao}</p>
@@ -26,7 +26,7 @@ class ViewProdutos extends React.Component {
           <div className="card-body row text-center ">
             {playerData?.map((item, index) => (
               <div className="col-sm" key={index}>
-                <hr></hr>
+                
                 {console.log(item)}
                 <p>Descrição: {item?.descricao}</p>
                 <p>Preco custo: {item?.preco_custo}</p>
