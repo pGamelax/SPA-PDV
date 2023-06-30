@@ -17,7 +17,7 @@ class ViewProdutos extends React.Component {
                   <p>Preco Venda: {playerData?.produto?.preco_venda}</p>
                   
                 </div>
-                <hr>
+               
              }
             
           </div>
@@ -35,7 +35,7 @@ class ViewProdutos extends React.Component {
                 <p>Preco Venda: {item?.preco_venda}</p>
                 
               </div>
-              <hr>
+              
             ))}
           </div>
         </div>
