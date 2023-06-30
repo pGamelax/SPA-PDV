@@ -5,7 +5,7 @@ class ViewProdutos extends React.Component {
     const { playerData } = this.props;
     console.log(playerData?.produto);
     return playerData?.produto ? (
-      <div>
+      <>
         <div className="card">
           <div className="card-body row text-center ">
             
@@ -19,14 +19,13 @@ class ViewProdutos extends React.Component {
           </div>
         </div>
         
-      </div>
+      </>
     ) : (
-      <div>
+      <>
         <div className="card">
           <div className="card-body row text-center ">
             {playerData?.map((item, index) => (
               <div className="col-sm" key={index}>
-                
                 {console.log(item)}
                 <p>Descrição: {item?.descricao}</p>
                 <p>Preco custo: {item?.preco_custo}</p>
@@ -36,7 +35,7 @@ class ViewProdutos extends React.Component {
             ))}
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }
