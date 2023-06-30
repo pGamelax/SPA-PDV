@@ -33,6 +33,7 @@ class ViewProdutos extends React.Component {
                 <p>Preco custo: {item?.preco_custo}</p>
                 <p>Preco Venda: {item?.preco_venda}</p>
               </div>
+              <hr></hr>
             ))}
           </div>
         </div>
