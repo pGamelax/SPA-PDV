@@ -6,7 +6,7 @@ class ViewProdutos extends React.Component {
     console.log(playerData?.produto);
     return playerData?.produto ? (
       <>
-        
+        <hr></hr>
         <div className="card">
           <div className="card-body row text-center ">
             {
