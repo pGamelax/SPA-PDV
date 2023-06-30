@@ -15,10 +15,11 @@ class ViewProdutos extends React.Component {
                   <p>Descrição: {playerData?.produto?.descricao}</p>
                   <p>Preco custo: {playerData?.produto?.preco_custo}</p>
                   <p>Preco Venda: {playerData?.produto?.preco_venda}</p>
+                  <hr></hr>
                 </div>
                 
              }
-            <hr></hr>
+            
           </div>
         </div>
       </>
