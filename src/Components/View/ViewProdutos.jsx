@@ -9,11 +9,12 @@ class ViewProdutos extends React.Component {
         <div className="card">
           <div className="card-body row text-center ">
             {
-                  <p>Descrição: {playerData?.produto?.descricao}</p>
-                  <p>Preco custo: {playerData?.produto?.preco_custo}</p>
-                  <p>Preco Venda: {playerData?.produto?.preco_venda}</p>
+              <hr></hr>
+              <p>Descrição: {playerData?.produto?.descricao}</p>
+              <p>Preco custo: {playerData?.produto?.preco_custo}</p>
+              <p>Preco Venda: {playerData?.produto?.preco_venda}</p>
             }
-            <hr></hr>
+            
           </div>
         </div>
         
